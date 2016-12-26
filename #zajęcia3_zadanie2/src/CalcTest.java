@@ -19,9 +19,6 @@ public class CalcTest {
         System.out.println(circArea);
         System.out.println(triangArea);
         System.out.println(recArea);
-        /**
-         * Zadanie 3, zwrócenie
-         */
 
     }
 }
