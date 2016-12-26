@@ -4,8 +4,7 @@
 public class ShapeCalculator {
 
     double squareArea(Square square){
-        double result = Math.pow(square.sideA,2);
-        return result;
+        return Math.pow(square.sideA,2);
     }
     double circleArea(Circle circle){
         return Math.PI*(Math.pow(circle.radiusR,circle.radiusR));
