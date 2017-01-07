@@ -11,9 +11,9 @@ public class TriangleTest {
 
         TriangleChecker triangleChecker = new TriangleChecker();
 
-        System.out.println(triangleChecker.isRightTriangle(triangle0));
-        System.out.println(triangleChecker.isRightTriangle(triangle1));
-        System.out.println(triangleChecker.isRightTriangle(triangle2));
-        System.out.println(triangleChecker.isRightTriangle(triangle3));
+        System.out.println("Triangle 1st is right-angled: " + triangleChecker.isRightTriangle(triangle0));
+        System.out.println("Triangle 2nd is right-angled: " + triangleChecker.isRightTriangle(triangle1));
+        System.out.println("Triangle 3rd is right-angled: " + triangleChecker.isRightTriangle(triangle2));
+        System.out.println("Triangle 4th is right-angled: " + triangleChecker.isRightTriangle(triangle3));
     }
 }
