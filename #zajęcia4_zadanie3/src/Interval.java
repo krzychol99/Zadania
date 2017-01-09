@@ -4,20 +4,19 @@
 public class Interval {
     public static void main(String[] args) {
 
-        double maxNum = 3;
+        double maxNum = 3.1;
         double intervalNum = 0.1;
-        double i = -0.1;
-        double j = -0.1;
 
         System.out.println("While loop: ");
-        while(i < maxNum){
-            i += intervalNum;
-            System.out.println(i);
+        while(intervalNum < maxNum){
+            System.out.printf("%.1f ", intervalNum);
+            intervalNum += 0.1;
         }
-        System.out.println("Do while loop: ");
+        intervalNum = 0.1;
+        System.out.println("\nDo while loop: ");
         do{
-            j += intervalNum;
-            System.out.println(j);
-        } while(j < maxNum);
+            intervalNum += 0.1;
+            System.out.printf("%.1f ", intervalNum);
+        } while(intervalNum < maxNum);
     }
 }
