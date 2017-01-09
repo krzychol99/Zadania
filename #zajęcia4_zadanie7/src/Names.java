@@ -10,13 +10,12 @@ public class Names {
         String helloNames = "Hello ";
         int i = 0;
         System.out.println("Enter 5 names: ");
-
         while (i < names.length ){
             names[i] = input.nextLine();
             i++;
         }
         int counter = names.length - 1;
-        while(counter<names.length && counter >= 0){
+        while(counter >= 0){
             System.out.println(helloNames + " " + names[counter]);
             counter--;
         }
