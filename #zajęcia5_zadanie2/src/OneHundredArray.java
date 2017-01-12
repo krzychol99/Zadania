@@ -13,9 +13,9 @@ public class OneHundredArray {
         for(int i = 0; i < numbers.length; i++){
             numbers[i] = random.nextInt(1000);
         }
-        for(int number: numbers){
-            System.out.println(number);
-        }
+//        for(int number: numbers){
+//            System.out.println(number);
+//        }
         for (int number: numbers){
             if(number < 50) {
                 counter++;
