@@ -5,7 +5,7 @@ public class ConverterTest {
     public static void main(String[] args) {
         CalendarConverter converter = new CalendarConverter();
 
-        for (int i = 1; i<7; i++){
+        for (int i = 1; i<8; i++){
             String descriptionDay = " dzień tygodnia to: ";
 
             System.out.println(i + descriptionDay);
