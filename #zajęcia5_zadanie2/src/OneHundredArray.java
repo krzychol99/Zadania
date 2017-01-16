@@ -17,34 +17,26 @@ public class OneHundredArray {
 //            System.out.println(number);
 //        }
         for (int number: numbers){
+            int counter1;
             if(number < 50) {
-                counter++;
+                counter1++;
+                System.out.println("Quantity of numbers smaller than 50: " + counter);
             }
-        }
-        System.out.println("Quantity of numbers smaller than 50: " + counter);
-
-        counter = 0;
-        for (int number: numbers){
+            counter = 0;
             if(number > 50){
                 counter++;
+                System.out.println("Quantity of numbers bigger than 50: " + counter);
             }
-        }
-        System.out.println("Quantity of numbers bigger than 50: " + counter);
-
-        counter = 0;
-        for (int number: numbers){
-            if(number%2 == 0){
+            counter = 0;
+            if(number%2 == 0) {
                 counter++;
+                System.out.println("Quantity of even numbers : " + counter);
             }
-        }
-        System.out.println("Quantity of even numbers : " + counter);
-
-        counter = 0;
-        for (int number: numbers){
+            counter = 0;
             if(number%2 != 0){
                 counter++;
+                System.out.println("Quantity of odd numbers : " + counter);
             }
         }
-        System.out.println("Quantity of odd numbers : " + counter);
     }
 }
